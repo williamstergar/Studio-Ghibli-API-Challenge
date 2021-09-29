@@ -1,0 +1,36 @@
+body {
+    background-color: #fdbb2d;
+}
+
+.hone {
+    font-size: 70px;
+    font-family: Papyrus, Copperplate, Fantasy;
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(37, 27, 27);
+}
+
+h2.mte {
+    font-size: 40px;
+    font-family: Papyrus, Copperplate, Fantasy;
+    font-weight: bold; 
+    text-align: left;
+    position: relative;
+    top: 0px;
+    margin: 10px;
+}
+
+.flex-container1 {
+    display: flex;
+    background-image: linear-gradient(#fdbb2d, #b21f1f, #1a2a6c);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-container1 > div {
+    background-image: linear-gradient(#636363, #a2ab58);
+    margin: 7px;
+    padding: 30px;
+    font-size: 10px;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
